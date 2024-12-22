@@ -6,19 +6,19 @@
 ```
 cypress
 ├── e2e
-│   └── direct_url_form_test.cy.ts
+│   └── direct_url_form_test.cy.ts  ── тесты для контактной формы
 ├── fixtures
-│   └── contact_user_data.json
+│   └── contact_user_data.json  ── данные для заполнения формы
 ├── screenshots
 │   └── direct_url_form_test.cy.ts
 └── support
     ├── commands.ts
     └── e2e.ts
-cypress.config.ts
+cypress.config.ts  ── конфигурация cypress 
 package-lock.json
 package.json
 README.md
-tsconfig.json
+tsconfig.json  ── конфигурация typescript
 ```
 
 ## Установка
