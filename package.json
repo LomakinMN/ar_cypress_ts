@@ -1,0 +1,19 @@
+{
+  "name": "ar_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cypress": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}
