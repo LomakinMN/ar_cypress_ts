@@ -1,6 +1,25 @@
 # Тестирование контактной формы с помощью cypress на typescript
 
-### описание тест-кейсов ниже раздела установки
+### Описание тест-кейсов ниже раздела установки
+
+## Структура проекта
+```
+cypress
+├── e2e
+│   └── direct_url_form_test.cy.ts
+├── fixtures
+│   └── contact_user_data.json
+├── screenshots
+│   └── direct_url_form_test.cy.ts
+└── support
+    ├── commands.ts
+    └── e2e.ts
+cypress.config.ts
+package-lock.json
+package.json
+README.md
+tsconfig.json
+```
 
 ## Установка
 ### актуально для node v18.17.1
